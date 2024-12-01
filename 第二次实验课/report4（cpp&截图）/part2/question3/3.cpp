@@ -1,7 +1,7 @@
 #include<iostream>
 #include"string.h"
 using namespace std;
-void ord(int arr[],int len)//´ÓÎÊÌâ¶şÄÇÀï½è¹ıÀ´µÄÅÅĞòº¯Êı
+void ord(int arr[],int len)//ä»é—®é¢˜äºŒé‚£é‡Œå€Ÿè¿‡æ¥çš„æ’åºå‡½æ•°
 {
     for(int i=0;i<len-1;i++)
     {
@@ -20,21 +20,21 @@ void ord(int arr[],int len)//´ÓÎÊÌâ¶şÄÇÀï½è¹ıÀ´µÄÅÅĞòº¯Êı
 }
 int main()
 {
-	cout<<"ÇëÊäÈëÊı×éµÄÔªËØ¸öÊı£º";
+	cout<<"è¯·è¾“å…¥æ•°ç»„çš„å…ƒç´ ä¸ªæ•°ï¼š";
     int n;
     cin>>n;
     int* p=new int[n];
-    cout<<"ÇëÊäÈëÊı×éÖĞÏàÓ¦µÄÔªËØ£º";
+    cout<<"è¯·è¾“å…¥æ•°ç»„ä¸­ç›¸åº”çš„å…ƒç´ ï¼š";
     for(int i=0;i<n;i++)
         cin>>p[i];
     for(int i=0;i<n;i++)
-        cout<<(p+i)<<'\t';//ÊÔÍ¼Êä³öÖ¸Õë
+        cout<<(p+i)<<'\t';//è¯•å›¾è¾“å‡ºæŒ‡é’ˆ
         cout<<endl;
     for(int i=0;i<n;i++)
-        cout<<p[i]<<'\t';//ÊÔÍ¼Êä³öÖ¸ÕëÖ¸ÏòµÄÖµ
+        cout<<p[i]<<'\t';//è¯•å›¾è¾“å‡ºæŒ‡é’ˆæŒ‡å‘çš„å€¼
         cout<<endl;
     ord(p,n);
     for(int i=0;i<n;i++)
-        cout<<*(p+i)<<'\t';//ÊÔÍ¼ÓÃÖ¸ÕëÊä³öÊı×éÔªËØ
-    delete p;
+        cout<<*(p+i)<<'\t';//è¯•å›¾ç”¨æŒ‡é’ˆè¾“å‡ºæ•°ç»„å…ƒç´ 
+    delete []p;
 }
