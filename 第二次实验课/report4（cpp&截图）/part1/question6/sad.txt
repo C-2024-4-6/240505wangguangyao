@@ -1,0 +1,54 @@
+	有段没写完的甜菜代码，very sad
+	for (int i = 0; i <len; i++)
+	{
+		if (s[i]=='a'||s[i]=='A')
+			counts[0]++;
+		else if(s[i]=='b'||s[i]=='B')
+			counts[1]++;
+		else if(s[i]=='c'||s[i]=='C')
+			counts[2]++;
+		else if(s[i]=='d'||s[i]=='D')
+			counts[3]++;
+        else if(s[i]=='e'||s[i]=='E')
+			counts[4]++;
+        else if(s[i]=='f'||s[i]=='F')
+			counts[5]++;
+        else if(s[i]=='g'||s[i]=='G')
+			counts[6]++;
+        else if(s[i]=='h'||s[i]=='H')
+			counts[7]++;
+        else if(s[i]=='i'||s[i]=='I')
+			counts[8]++;
+        else if(s[i]=='j'||s[i]=='J')
+			counts[9]++;
+        else if(s[i]=='k'||s[i]=='K')
+			counts[10]++;
+        else if(s[i]=='l'||s[i]=='L')
+			counts[11]++;
+        else if(s[i]=='m'||s[i]=='M')
+			counts[12]++;
+        else if(s[i]=='n'||s[i]=='N')
+			counts[13]++;
+        else if(s[i]=='o'||s[i]=='O')
+			counts[14]++;
+        else if(s[i]=='p'||s[i]=='P')
+			counts[15]++;
+        else if(s[i]=='q'||s[i]=='Q')
+			counts[16]++;
+        else if(s[i]=='r'||s[i]=='R')
+			counts[17]++;
+        else if(s[i]=='s'||s[i]=='S')
+			counts[18]++;
+        else if(s[i]=='t'||s[i]=='T')
+			counts[19]++;
+        else if(s[i]=='u'||s[i]=='U')
+			counts[20]++;
+        else if(s[i]=='v'||s[i]=='V')
+			counts[1]++;
+        else if(s[i]=='b'||s[i]=='B')
+			counts[1]++;
+        else if(s[i]=='b'||s[i]=='B')
+			counts[1]++;
+        else if(s[i]=='b'||s[i]=='B')
+			counts[1]++;
+	}
