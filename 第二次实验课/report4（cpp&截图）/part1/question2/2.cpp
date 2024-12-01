@@ -28,7 +28,7 @@ using namespace std;
 int main()
 {
     double arr[10];
-    cout<<"请输入十个数据：";
+    cout<<"璇疯緭鍏ュ崄涓暟鎹細";
     for(int i=0;i<10;i++)
     cin>>arr[i];
     int len=sizeof(arr)/sizeof(arr[0]);
